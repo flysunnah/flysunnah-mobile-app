@@ -5,8 +5,18 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "scheme": "flysunnah",
     "assetBundlePatterns": ["**/*"],
-    "android": { "package": "com.flysunnah.travel" },
-    "ios": { "bundleIdentifier": "com.flysunnah.travel" }
+    "android": {
+      "package": "com.flysunnah.travel",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.flysunnah.travel",
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro"
+    }
   }
 }
