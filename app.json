@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Fly Sunnah",
+    "slug": "fly-sunnah",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": ["**/*"],
+    "android": { "package": "com.flysunnah.travel" },
+    "ios": { "bundleIdentifier": "com.flysunnah.travel" }
+  }
+}
